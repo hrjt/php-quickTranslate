@@ -38,6 +38,23 @@ $translator = new QuickTranslator('translations.txt');
 // Translate text
 $result = $translator->translateString("Hello world! This is awesome.");
 echo $result; // Output: "Hello world! This is Excellent."
+
+// Custom translations in code. Add custom translation (word replacement) after initialization. New rules are not added to dictionary files, but the current code.
+$translator = new QuickTranslator('translations.txt');
+$translator.addTranslation("this","that");
+$result = $translator->translateString("I received your gift, this is awesome");
+echo $result; //Output: "I received your gift, that is awesome"
+
+
+//word replacement with Prepend & Append mode using + or -
+$translator = new QuickTranslator('translations.txt');
+$translator.addTranslation("awesome","+i really appreciate it");     //new word starts with '+', it will Append new word(s) to old word(s).
+$translator.addTranslation("awesome","-amazing and");                //new word starts with '-', it will Prepend new word(s) to old word(s).
+
+$result = $translator->translateString("I received your gift, this is awesome");
+echo $result; //Output: "I received your gift, that is amazing and awesome i really appreciate it"
+
+
 ```
 
 ## 📝 Dictionary Format
