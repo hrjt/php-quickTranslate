@@ -1,0 +1,104 @@
+# Translation Dictionary Example
+# Format: source_word1,source_word2,source_word3:target_word
+# Comments start with # or //
+
+# Basic English synonyms
+hello,hi,hey,greetings:Hello
+goodbye,bye,farewell,see you:Goodbye
+good,great,excellent,amazing,awesome:Excellent
+bad,terrible,awful,horrible:Poor
+big,large,huge,enormous,giant:Large
+small,tiny,little,mini:Small
+
+# Common words and phrases
+yes,yeah,yep,sure,okay:Yes
+no,nope,nah:No
+thanks,thank you,ty:Thank You
+please,pls:Please
+sorry,apologize:Apologies
+
+# Technology terms
+computer,pc,laptop,machine:Computer
+internet,web,net,online:Internet
+software,program,app,application:Software
+website,site,webpage:Website
+email,e-mail,mail:Email
+
+# Time expressions
+today,now,currently:Today
+tomorrow,next day:Tomorrow
+yesterday,prev day,last day:Yesterday
+morning,am:Morning
+evening,night,pm:Evening
+
+# Colors
+red,crimson,scarlet:Red
+blue,navy,azure:Blue
+green,emerald,jade:Green
+yellow,gold,amber:Yellow
+black,dark:Black
+white,light:White
+
+# Animals
+dog,puppy,canine:Dog
+cat,kitten,feline:Cat
+bird,avian:Bird
+fish,aquatic:Fish
+
+# Food items
+pizza,pie:Pizza
+burger,hamburger:Burger
+coffee,cafe,java:Coffee
+tea,chai:Tea
+water,h2o:Water
+
+# Emotions
+happy,joyful,glad,cheerful:Happy
+sad,unhappy,depressed:Sad
+angry,mad,furious:Angry
+excited,thrilled:Excited
+tired,exhausted,weary:Tired
+
+# Actions
+walk,stroll,hike:Walk
+run,jog,sprint:Run
+eat,consume,dine:Eat
+drink,sip:Drink
+sleep,rest,nap:Sleep
+
+# Multilingual examples (UTF-8 support)
+你好,こんにちは,안녕하세요,नमस्ते:Hello
+再见,さようなら,안녕히 가세요,अलविदा:Goodbye
+谢谢,ありがとう,감사합니다,धन्यवाद:Thank You
+
+# Mixed language synonyms
+café,coffee,кофе,コーヒー:Coffee
+agua,water,вода,水:Water
+casa,house,дом,家:House
+
+# Abbreviations and acronyms
+lol,laugh out loud,haha:Laughing
+omg,oh my god,wow:Surprised
+btw,by the way:By The Way
+fyi,for your information:For Your Information
+asap,as soon as possible:Urgently
+
+# Common misspellings
+recieve,recive:receive
+seperate,seprate:separate
+definately,definatly:definitely
+occured,occurd:occurred
+neccessary,necesary:necessary
+
+# Internet slang
+ur,u r:you are
+u,yu:you
+r,ar:are
+n,nd:and
+w/,with:with
+w/o,without:without
+
+# Empty target (removal)
+spam,junk,unwanted:
+noise,static:
+filler,placeholder:
