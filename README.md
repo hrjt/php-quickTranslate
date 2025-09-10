@@ -22,7 +22,7 @@ A lightweight, Unicode-aware PHP class for fast string translation using direct 
 
 ### Installation
 
-1. Download `QuickTranslator.php`
+1. Download `QuickTranslator.php` and 'sample-dict.txt'
 2. Include it in your project:
 
 ```php
@@ -57,7 +57,7 @@ echo $result; //Output: "I received your gift, that is amazing and awesome i rea
 
 ```
 
-## 📝 Dictionary Format
+## 📝 Dictionary Format - refer: Sample-dict.txt
 
 Create a text file with translation rules in this format:
 
